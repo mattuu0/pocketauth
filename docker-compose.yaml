@@ -1,0 +1,19 @@
+services:
+  auth:
+    # ビルドするファイルの設定
+    build:
+      context: ./auth
+      dockerfile: Dockerfile
+    
+    # 自動で起動するように設定
+    restart: always
+
+    # ホスト名設定
+    hostname: auth
+
+    # tty 有効化
+    tty: true
+
+    # ボリュームを設定
+    volumes:
+      - ./auth/src:/go/src/app
