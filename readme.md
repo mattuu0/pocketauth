@@ -23,7 +23,7 @@
 ### 1\. リポジトリのクローン
 
 ```bash
-git clone https://github.com/your-username/pocketauth.git
+git clone https://github.com/mattuu0/pocketauth
 cd pocketauth
 ```
 
